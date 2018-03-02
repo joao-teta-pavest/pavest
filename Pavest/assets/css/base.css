@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	
+}
+
+#noBackgroundMenu {
+	background: none;
+	border-bottom: 3px solid black;
+}
+
+.myActive {
+	border-bottom: 3px solid #393d5a;
+}
+
+#menuOptions li {
+	margin-left: 2px;
+	margin-right: 2px;
+	transition: all 0.5s;
+}
+
+#menuOptions li:hover {
+	border-bottom: 3px solid #393d5a;
+}
+
+#redesSociais #original:hover {
+	display: none;
+}
+
+#redesSociais #original:hover #pavest {
+	display: visible;
+}
+
+#resumoServicos a {
+	color: grey !important;
+	transition: all 1s;
+}
+
+#resumoServicos a:hover {
+	text-decoration: none;
+	color: #393d5a !important;
+}
+
+.btnMais {
+	background-color: #393d5a !important;
+	color: white;
+	transition: all 1s;
+}
+
+.btnMais:hover {
+	background-color: #24263a !important;
+	color: white;
+}
+
+.change1 {
+	color: #ced146;
+	transition: all 1s;
+}
+
+.change2 {
+	color: #ced146;
+	transition: all 1s;
+}
+
+.change3 {
+	color: #ced146;
+	transition: all 1s;
+}
+
+#objectivo1:hover .change1 {
+	color: white;
+	cursor: default;
+}
+
+#objectivo2:hover .change2 {
+	color: white;
+	cursor: default;
+}
+
+#objectivo3:hover .change3 {
+	color: white;
+	cursor: default;
+}
+#footer{
+	border-top:2px solid black;
+	min-height:200px;
+	color:black;
+	background-color: rgba(200,200,200,1);
+}
+#footer .row .col-md-12{
+	
+	text-align:center;
+}
